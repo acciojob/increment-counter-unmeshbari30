@@ -9,7 +9,7 @@
 	body.appendChild(element)
 	
 	btn.addEventListener('click', ()=>{
-		counter++
 		alert(counter)
+		counter++
 		element.textContent = counter;
 	})
