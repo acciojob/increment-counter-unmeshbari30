@@ -5,10 +5,11 @@
 
 	let element = document.createElement('p')
 	element.textContent = counter
+	element.id = "counter"
 	body.appendChild(element)
 	
 	btn.addEventListener('click', ()=>{
+		counter++
 		alert(counter)
 		element.textContent = counter;
-		counter++
 	})
